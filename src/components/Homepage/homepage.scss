@@ -22,12 +22,13 @@
       flex-direction:column;
       height: calc(400vh);
     }
-    @media (max-width: 1759px) {
+    @media (max-width: 1440px) {
       display:flex;
      
       flex-direction:column;
       height: calc(400vh);
     }
+
   }
   
   .row{
@@ -43,21 +44,22 @@
     transform:perspective(800px) rotateY(25deg);
     transition:0.5s;
     @media (max-width: 768px) {
-      padding-right: 500px;
+      width: 100%;
       
      
     }
-    @media (max-width: 1024px) {
-      margin-left: 600px;
+    @media (min-width: 768px) and(max-width: 1024px) {
      
+      margin-left: 600px;
       width: 100%;
-      height: 100%;
+      margin-top: 300px;
+     
     }
-    @media (max-width: 1440px) {
-      margin-left: 1000px;
-     margin-top: 300px;
+    @media(min-width: 1025px) and(max-width: 1440px) {
+      margin-left: 750px;
       width: 100%;
-      height: 100%;
+      margin-top: 300px;
+     
     }
    
   }
