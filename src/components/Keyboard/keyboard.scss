@@ -1,0 +1,19 @@
+.centerme {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+  .roundButton {
+    font-family: "Exo 2";
+    cursor: pointer;
+    background-color: #ff7600;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
