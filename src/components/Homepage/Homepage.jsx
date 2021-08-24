@@ -15,10 +15,10 @@ export default function Homepage() {
           <div class="row">
           <Rps/>   
           </div>
-          <div class="row">
+          <div class="row1">
           <Tw048/>   
           </div>    
-          <div class="row"id="style-4">
+          <div class="row2"id="style-4">
           <Diction/>  
           </div>
          
