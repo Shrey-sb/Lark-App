@@ -339,7 +339,7 @@ function App() {
         style={{
           width: 345,
           margin: "auto",
-          marginTop: 30,
+          marginTop: 130,
         }}
       >
         <div style={{ display: "flex" }}>
