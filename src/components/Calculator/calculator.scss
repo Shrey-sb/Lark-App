@@ -7,6 +7,9 @@
     background-color: #2f2f2f;
     padding: 20px;
     margin-top: 150px;
+    @media (max-width: 1024px) {
+      margin-top: 150px;
+    }
   }
   .buttonss{
       display: flex;
